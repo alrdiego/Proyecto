@@ -13,7 +13,7 @@ int sensorGas = A1;              // Pin analógico del sensor de gas (MQ-2) OJO:
 int led = 10;                    // Pin del LED indicador
 int pinZumbador = 9;             // Pin de un buzzer (activo) controlado con HIGH/LOW
 int valorSensor = 0;             // Variable para guardar la lectura analógica del sensor
-int umbral = 50;                 // Umbral que define alarma vs. nivel seguro (ajustar tras pruebas)
+int umbral = 50;                 // Umbral que define alarma vs. nivel seguro (ajustar tras pruebas) (El umbral original es de 7000, 50 es solo para la prueba)
 int pinZumbadorP = 7;            // Pin de otro zumbador (pasivo) al que se le aplica tono()
 
 void setup() {
